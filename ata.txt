@@ -1,0 +1,14 @@
+- O supervisor ele cadastra alunos, ai ele pode cadastrar varios. 
+um aluno pode jogar sem entrar
+- O aluno entra usando a conta do supervisor, entao ele entra usando o email e senha do supervisor. 
+melhores cores pra usa
+- Esqueci a senha
+
+Dps do cadastro do supervisor (nome, email e senha, tipo de supervisor (pai, professor, tutor, outros)), vai pra cadastro do aluno: nome do aluno, se tem ou nao autismo e seleção de temas e com base nesses temas muda os jogos que aparece pra ele (por exemplo esporte)
+- Colocar jogos na plataforma - eu tenho q fazer
+- 
+
+obs: dependendo do tipo de supervisor, se for professor o campo classe_escolar do aluno ira aparecer
+
+obs: tempo gasto em cada atividade do aluno
+painel administrativo pro supervisor
