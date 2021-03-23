@@ -12,7 +12,8 @@ body {
 
 .sidenav {
     height: 100%;
-    background-color: #000;
+    /* background-color: #000; */
+    background-image: url(https://previews.123rf.com/images/dip/dip1505/dip150500140/39854183-colorful-seamless-pattern-for-kids.jpg);
     overflow-x: hidden;
     padding-top: 20px;
 }

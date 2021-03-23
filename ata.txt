@@ -4,7 +4,8 @@ um aluno pode jogar sem entrar
 melhores cores pra usa
 - Esqueci a senha
 
-Dps do cadastro do supervisor (nome, email e senha, tipo de supervisor (pai, professor, tutor, outros)), vai pra cadastro do aluno: nome do aluno, se tem ou nao autismo e seleção de temas e com base nesses temas muda os jogos que aparece pra ele (por exemplo esporte)
+Dps do cadastro do supervisor (nome, email e senha, tipo de supervisor (pai, professor, tutor, outros)),
+ vai pra cadastro do aluno: nome do aluno, se tem ou nao autismo e seleção de temas e com base nesses temas muda os jogos que aparece pra ele (por exemplo esporte)
 - Colocar jogos na plataforma - eu tenho q fazer
 - 
 

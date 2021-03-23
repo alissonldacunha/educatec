@@ -9,7 +9,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <title>Hello, world!</title>
-   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="../css/index.css">
   </head>
 <body>
    
@@ -23,19 +23,32 @@
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-            <h2>Entrar<br> </h2>
+            <h2>Cadastre-se<br> </h2>
                <form>
+                  <div class="form-group">
+                     <label>Nome</label>
+                     <input type="text" class="form-control" placeholder="Nome" required>
+                  </div>
                   <div class="form-group">
                      <label>E-Mail</label>
                      <input type="email" class="form-control" placeholder="E-mail" required>
                   </div>
                   <div class="form-group">
+                    <label>Tipo de supervisor</label>
+                    <select class="form-control" aria-label="Default select example" required>
+                        <option value="1">Pai</option>
+                        <option value="2">Professor</option>
+                        <option value="3">Tutor</option>
+                        <option value="4">Outros</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
                      <label>Senha</label>
                      <input type="password" class="form-control" placeholder="Senha" required>
                   </div>
-                  <button type="submit" class="btn btn-black">Entrar</button>
+                  <button type="submit" class="btn btn-black">Registre-se</button>
                   <br>
-                  <a href="cadastrar/" class="btn btn-link">Não tem uma conta? Registre-se</a>
+                  <a href="../" class="btn btn-link">Tem uma conta? Entrar</a>
                </form>
             </div>
          </div>
