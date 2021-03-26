@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <title>Hello, world!</title>
+    <title>Cadastro de supervisor</title>
    <link rel="stylesheet" href="../css/index.css">
   </head>
 <body>

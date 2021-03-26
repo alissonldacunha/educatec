@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <title>Hello, world!</title>
+    <title>Educatec</title>
    <link rel="stylesheet" href="css/index.css">
   </head>
 <body>
@@ -35,7 +35,7 @@
                   </div>
                   <button type="submit" class="btn btn-black">Entrar</button>
                   <br>
-                  <a href="cadastrar/" class="btn btn-link">Não tem uma conta? Registre-se</a>
+                  <a href="cadastrodesupervisor/" class="btn btn-link">Não tem uma conta? Registre-se</a>
                </form>
             </div>
          </div>
