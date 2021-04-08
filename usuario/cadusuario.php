@@ -9,7 +9,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <title>Educatec</title>
-   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="../css/index.css">
   </head>
 <body>
    
@@ -33,7 +33,7 @@
                      <label>Senha</label>
                      <input type="password" class="form-control" placeholder="Senha" required>
                   </div>
-                  <a href="usuario/" class="btn btn-black">Entrar</a>
+                  <button type="submit" class="btn btn-black">Entrar</button>
                   <br>
                   <a href="cadastrodesupervisor/" class="btn btn-link">Não tem uma conta? Registre-se</a>
                </form>

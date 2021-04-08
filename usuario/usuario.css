@@ -1,0 +1,19 @@
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.register {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+.register span {
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}

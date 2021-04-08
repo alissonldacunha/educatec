@@ -13,3 +13,10 @@ obs: dependendo do tipo de supervisor, se for professor o campo classe_escolar d
 
 obs: tempo gasto em cada atividade do aluno
 painel administrativo pro supervisor
+
+Telas: 
+login
+cadastro
+jogos
+Cadastro de alunos
+Exibir todos os alunos

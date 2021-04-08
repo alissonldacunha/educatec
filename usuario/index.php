@@ -8,39 +8,31 @@
     <!-- Bootstrap CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <title>Educatec</title>
-   <link rel="stylesheet" href="css/index.css">
+    <title>Usuario</title>
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="usuario.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 <body>
-   
-   
-<div class="sidenav">
-   <div class="login-main-text">
-      <h2>Educatec<br> Login</h2>
-   <p>Entre ou registre-se para acessar a plataforma</p>
-   </div>
-</div>
-      <div class="main">
-         <div class="col-md-6 col-sm-12">
-            <div class="login-form">
-            <h2>Entrar<br> </h2>
-               <form>
-                  <div class="form-group">
-                     <label>E-Mail</label>
-                     <input type="email" class="form-control" placeholder="E-mail" required>
-                  </div>
-                  <div class="form-group">
-                     <label>Senha</label>
-                     <input type="password" class="form-control" placeholder="Senha" required>
-                  </div>
-                  <a href="usuario/" class="btn btn-black">Entrar</a>
-                  <br>
-                  <a href="cadastrodesupervisor/" class="btn btn-link">Não tem uma conta? Registre-se</a>
-               </form>
-            </div>
-         </div>
+
+
+    
+
+
+<br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+          <img class="profile" src="https://i.pinimg.com/236x/13/2b/9b/132b9b72f307a90a69ce17869b6a2567.jpg">
+      </div>
+      
+      <div class="col-sm">
+        <a class="btn btn-black">Registrar aluno</a>
       </div>
 
+    </div>
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
