@@ -15,27 +15,44 @@
    
    
 <div class="sidenav">
-   <div class="login-main-text">
-      <h2>Educatec<br> Login</h2>
-   <p>Entre ou registre-se para acessar a plataforma</p>
-   </div>
+   
 </div>
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-            <h2>Entrar<br> </h2>
+            <h2>Cadastro de usuário<br> </h2>
                <form>
                   <div class="form-group">
-                     <label>E-Mail</label>
-                     <input type="email" class="form-control" placeholder="E-mail" required>
+                     <label>Nome do aluno</label>
+                     <input type="text" class="form-control" placeholder="Nome do aluno" required>
                   </div>
-                  <div class="form-group">
-                     <label>Senha</label>
-                     <input type="password" class="form-control" placeholder="Senha" required>
+                  
+                  
+                  <label>Possui autismo?</label>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                     <label class="form-check-label" for="flexRadioDefault1">
+                        Sim
+                     </label>
                   </div>
-                  <button type="submit" class="btn btn-black">Entrar</button>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                     <label class="form-check-label" for="flexRadioDefault2">
+                        Não
+                     </label>
+                  </div>
                   <br>
-                  <a href="cadastrodesupervisor/" class="btn btn-link">Não tem uma conta? Registre-se</a>
+                  <div class="form-group">
+                    <label>Assunto de preferência</label>
+                    <select class="form-control" aria-label="Default select example" required>
+                        <option value="1">Esportes</option>
+                        <option value="2">Animais</option>
+                        <option value="3">Carros</option>
+                        <option value="4">Desenhos</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-black">Cadastrar</button>
                </form>
             </div>
          </div>
