@@ -24,29 +24,32 @@
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
             <h2>Cadastre-se<br> </h2>
-               <form>
+            <?php 
+               echo "<span class='text-success'>".@$_GET['msg']."</span>";
+            ?>
+               <form Action="../php/cadastrodesupervisor.php" method="post">
                   <div class="form-group">
                      <label>Nome</label>
-                     <input type="text" class="form-control" placeholder="Nome" required>
+                     <input type="text" class="form-control" placeholder="Nome" name="nome" required>
                   </div>
                   <div class="form-group">
                      <label>E-Mail</label>
-                     <input type="email" class="form-control" placeholder="E-mail" required>
+                     <input type="email" class="form-control" placeholder="E-mail" name="email" required>
                   </div>
                   <div class="form-group">
                     <label>Tipo de supervisor</label>
-                    <select class="form-control" aria-label="Default select example" required>
-                        <option value="1">Pai</option>
-                        <option value="2">Professor</option>
-                        <option value="3">Tutor</option>
-                        <option value="4">Outros</option>
+                    <select class="form-control" aria-label="Default select example" name="tipo_de_supervisor" required>
+                        <option value="Pai">Pai</option>
+                        <option value="Professor">Professor</option>
+                        <option value="Tutor">Tutor</option>
+                        <option value="Outros">Outros</option>
                     </select>
                   </div>
                   <div class="form-group">
                      <label>Senha</label>
-                     <input type="password" class="form-control" placeholder="Senha" required>
+                     <input type="password" class="form-control" placeholder="Senha" name="senha" required>
                   </div>
-                  <button type="submit" class="btn btn-black">Registre-se</button>
+                  <input type="submit" value="Registre-se" name="submit" class="btn btn-primary">
                   <br>
                   <a href="../" class="btn btn-link">Tem uma conta? Entrar</a>
                </form>

@@ -21,6 +21,9 @@
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
             <h2>Cadastro de usuário<br> </h2>
+            <?php 
+               echo "<span class='text-success'>".@$_GET['msg']."</span>";
+            ?>
                <form>
                   <div class="form-group">
                      <label>Nome do aluno</label>
