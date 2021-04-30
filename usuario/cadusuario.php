@@ -24,38 +24,33 @@
             <?php 
                echo "<span class='text-success'>".@$_GET['msg']."</span>";
             ?>
-               <form>
+               <form Action="../php/cadusuario.php" method="post">
                   <div class="form-group">
                      <label>Nome do aluno</label>
-                     <input type="text" class="form-control" placeholder="Nome do aluno" required>
+                     <input type="text" class="form-control" placeholder="Nome do aluno" name="nome" required>
                   </div>
-                  
-                  
-                  <label>Possui autismo?</label>
-                  <div class="form-check">
-                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                     <label class="form-check-label" for="flexRadioDefault1">
-                        Sim
-                     </label>
-                  </div>
-                  <div class="form-check">
-                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                     <label class="form-check-label" for="flexRadioDefault2">
-                        Não
-                     </label>
-                  </div>
-                  <br>
                   <div class="form-group">
-                    <label>Assunto de preferência</label>
-                    <select class="form-control" aria-label="Default select example" required>
-                        <option value="1">Esportes</option>
-                        <option value="2">Animais</option>
-                        <option value="3">Carros</option>
-                        <option value="4">Desenhos</option>
+                    <label>Possui autismo?</label>
+                    <select class="form-control" aria-label="Default select example" name="possui_autismo" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
                     </select>
                   </div>
+                  <div class="form-group">
+                    <label>Tema de preferência</label>
+                    <select class="form-control" aria-label="Default select example" name="temas" required>
+                        <option value="Esportes">Esportes</option>
+                        <option value="Animais">Animais</option>
+                        <option value="Carros">Carros</option>
+                        <option value="Desenhos">Desenhos</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                     <label>Classe escolar caso possua</label>
+                     <input type="text" class="form-control" placeholder="Qual classe o aluno estuda" name="classe_escolar" required>
+                  </div>
 
-                  <button type="submit" class="btn btn-black">Cadastrar</button>
+                  <input type="submit" value="Cadastrar-usuario" name="submit" class="btn btn-primary">
                </form>
             </div>
          </div>

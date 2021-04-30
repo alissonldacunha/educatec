@@ -24,16 +24,17 @@
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
             <h2>Entrar<br> </h2>
-               <form>
+               <form action="php/login.php" method="post">
                   <div class="form-group">
                      <label>E-Mail</label>
-                     <input type="email" class="form-control" placeholder="E-mail" required>
+                     <input type="email" class="form-control" placeholder="E-mail" name="email" required>
                   </div>
                   <div class="form-group">
                      <label>Senha</label>
-                     <input type="password" class="form-control" placeholder="Senha" required>
+                     <input type="password" class="form-control" placeholder="Senha" name="senha" required>
                   </div>
-                  <a href="usuario/" class="btn btn-black">Entrar</a>
+                  <input type="submit" value="Entrar" name="submit" class="btn btn-primary">
+
                   <br>
                   <a href="cadastrodesupervisor/" class="btn btn-link">Não tem uma conta? Registre-se</a>
                </form>

@@ -16,14 +16,14 @@ if(isset($_POST['submit']))
  
    
   // Query for data insertion
-     $query=mysqli_query($con, "insert into supervisor (nome,email, senha, tipo_de_supervisor) value('$nome','$email', '$senha', '$tipo_de_supervisor' )");
+     $query=mysqli_query($con, "INSERT INTO supervisor (nome,email, senha, tipo_de_supervisor) value('$nome','$email', '$senha', '$tipo_de_supervisor' )");
     if ($query) {
-    echo "<script>alert('You have successfully inserted the data');</script>";
-    echo "<script > document.location ='../cadastrodesupervisor/index.php'; </script>";
+    echo "<script>alert('Cadastro efetuado com sucesso!');</script>";
+    echo "<script > document.location ='../usuario/index.php'; </script>";
   }
   else
     {
-      echo "<script>alert('Something Went Wrong. Please try again');</script>";
+      echo "<script>alert('Cadastro invalido. Por favor tente novamente');</script>";
     }
 }
 ?>

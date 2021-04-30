@@ -14,25 +14,31 @@
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 <body>
-
-
-    
-
-
-<br>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-          <img class="profile" src="https://i.pinimg.com/236x/13/2b/9b/132b9b72f307a90a69ce17869b6a2567.jpg">
-      </div>
-      
-      <div class="col-sm">
-        <a class="btn btn-black">Registrar aluno</a>
-      </div>
-
+<?php session_start(); ?>
+<label> <?php echo $_SESSION['email']; ?></label>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      Uma de três colunas
     </div>
+    <div class="col-sm">
+      Uma de três colunas
+    </div>
+    <div class="col-sm">
+      Uma de três colunas
+    </div>
+    <div class="col-sm">
+      Uma de três colunas
+    </div>
+    <br>
+    
   </div>
+</div>
+<div class="container">
+  <div class="row">
+  <a class="btn btn-primary" href="cadusuario.php">Cadastrar usuario</a>
+  </div>
+</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
