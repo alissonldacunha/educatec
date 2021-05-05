@@ -21,6 +21,7 @@ if(isset($_POST['submit']))
    $id = $dado['idsupervisor'];
     echo $id;
   // Query for data insertion
+    $query=mysqli_query($con, "INSERT INTO ")
     
   }
   else
