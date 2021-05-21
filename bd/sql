@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `educatec`.`aluno`(
     `tipo_de_deficiencia` VARCHAR(45) NULL,
     `classe_escolar` VARCHAR(45) NULL,
     `temas` VARCHAR(45) NULL,
+    `email` VARCHAR(45) NULL,
     PRIMARY KEY(`idaluno`)
 ) ENGINE = INNODB;
 -- -----------------------------------------------------

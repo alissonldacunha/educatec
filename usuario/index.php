@@ -14,27 +14,30 @@
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 <body>
-<?php session_start(); ?>
-<label> <?php echo $_SESSION['email']; ?></label>
+
+<?php
+  session_start();
+  $email_super = $_SESSION['email'];
+  include("../inc/conexao.php");
+  $result = $con->query("SELECT * from aluno where email='$email_super'");
+
+?>
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      Uma de três colunas
-    </div>
-    <div class="col-sm">
-      Uma de três colunas
-    </div>
-    <div class="col-sm">
-      Uma de três colunas
-    </div>
-    <div class="col-sm">
-      Uma de três colunas
-    </div>
-    <br>
-    
+<?php
+while($row = $result->fetch_assoc())
+  {?>
+  <div class="col-sm">
+  <h3>Escolha um usuario</h3>
+  <p> <?php $row['nome'] ?> </p>
+  <a class="btn btn-danger btn-xs" href="../jogos/index.php?idusuario=<?php echo $row['idaluno']; ?>"><p><?php ECHO $row['nome'] ?> </p></a>
   </div>
+  <?php }?>
 </div>
+<br>
+<hr>
+
 <div class="container">
+<h3>Ou cadastre um usuario</h3>
   <div class="row">
   <a class="btn btn-primary" href="cadusuario.php">Cadastrar usuario</a>
   </div>

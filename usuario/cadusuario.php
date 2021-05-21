@@ -47,7 +47,7 @@
                   </div>
                   <div class="form-group">
                      <label>Classe escolar caso possua</label>
-                     <input type="text" class="form-control" placeholder="Qual classe o aluno estuda" name="classe_escolar" required>
+                     <input type="text" class="form-control" placeholder="Qual classe o aluno estuda" name="classe_escolar">
                   </div>
 
                   <input type="submit" value="Cadastrar-usuario" name="submit" class="btn btn-primary">
